@@ -13,8 +13,8 @@ router.get('/test-you', function (req, res) {
 });
 
 router.get('/test-we', function (req, res) {
-    // console.log('This is the constant I created', doSomething())
-    res.send('Hello there, welcome to this application!' + doSomething())
+    // console.log('This is the constant I created', name)
+    res.send('Hello there, welcome to my new application!' + doSomething())
 });
 
-module.exports = router;
+module.exports = router
